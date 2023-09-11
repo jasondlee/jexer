@@ -3,19 +3,19 @@ Jexer - Java Text User Interface library
 
 This library implements a text-based windowing system loosely
 reminiscent of Borland's [Turbo
-Vision](http://en.wikipedia.org/wiki/Turbo_Vision) system.  It looks
+Vision](https://en.wikipedia.org/wiki/Turbo_Vision) system.  It looks
 like this:
 
-![Terminal, Image, Table](/screenshots/new_demo1.png?raw=true "Terminal, Image, Table")
+![Terminal, Image, Table](screenshots/new_demo1.png?raw=true "Terminal, Image, Table")
 
 Jexer works on both Xterm-like terminals and Swing, and supports
 images in both Xterm and Swing.  On Swing, images are true color:
 
-![Swing Snake Image](/screenshots/snake_swing.png?raw=true "Swing Snake Image")
+![Swing Snake Image](screenshots/snake_swing.png?raw=true "Swing Snake Image")
 
 On Xterm, images are dithered to a common palette:
 
-![Xterm Snake Image](/screenshots/snake_xterm.png?raw=true "Xterm Snake Image")
+![Xterm Snake Image](screenshots/snake_xterm.png?raw=true "Xterm Snake Image")
 
 
 
@@ -68,20 +68,20 @@ comprehensive demonstration of what Jexer can accomplish.  Here one
 can see a floating terminal window over tiled terminals, two of which
 are showing images:
 
-![Floating terminal over tiled terminals](/screenshots/floating_terminal.png?raw=true "Floating terminal over tiled terminals")
+![Floating terminal over tiled terminals](screenshots/floating_terminal.png?raw=true "Floating terminal over tiled terminals")
 
 Jexer's examples/ folder currently contains:
 
   * A [prototype tiling window
-    manager](/examples/JexerTilingWindowManager.java) in less than 250
+    manager](examples/jexertilingwindowmanager) in less than 250
     lines of code.
 
   * A much slicker [prototype tiling window
-    manager](/examples/JexerTilingWindowManager2.java) in less than 200
+    manager](examples/jexertilingwindowmanager2) in less than 200
     lines of code.
 
   * A [prototype image thumbnail
-    viewer](/examples/JexerImageViewer.java) in less than 350 lines of
+    viewer](examples/jexerimageviewer) in less than 350 lines of
     code.
 
 jexer.demos contains official demos showing all of the existing UI
@@ -125,16 +125,16 @@ More Screenshots
 Jexer can be run inside its own terminal window, with support for all
 of its features including images and mouse, and more terminals:
 
-![Yo Dawg...](/screenshots/jexer_sixel_in_sixel.png?raw=true "Yo Dawg, I heard you like text windowing systems, so I ran a text windowing system inside your text windowing system so you can have a terminal in your terminal.")
+![Yo Dawg...](screenshots/jexer_sixel_in_sixel.png?raw=true "Yo Dawg, I heard you like text windowing systems, so I ran a text windowing system inside your text windowing system so you can have a terminal in your terminal.")
 
 Sixel output uses a single palette which works OK for a variety of
 real-world images:
 
-![Sixel Pictures Of Cliffs Of Moher And Buoy](/screenshots/sixel_images.png?raw=true "Sixel Pictures Of Cliffs Of Moher And Buoy")
+![Sixel Pictures Of Cliffs Of Moher And Buoy](screenshots/sixel_images.png?raw=true "Sixel Pictures Of Cliffs Of Moher And Buoy")
 
 The color wheel with that palette is shown below:
 
-![Sixel Color Wheel](/screenshots/sixel_color_wheel.png?raw=true "Sixel Color Wheel")
+![Sixel Color Wheel](screenshots/sixel_color_wheel.png?raw=true "Sixel Color Wheel")
 
 
 
