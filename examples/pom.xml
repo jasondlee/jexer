@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.gitlab.klamonte</groupId>
+        <groupId>com.steeplesoft.jexer</groupId>
         <artifactId>jexer-parent</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>

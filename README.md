@@ -34,7 +34,7 @@ Jexer is available on Maven Central:
 
 ```xml
 <dependency>
-  <groupId>com.gitlab.klamonte</groupId>
+  <groupId>com.steeplesoft.jexer</groupId>
   <artifactId>jexer</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -94,26 +94,26 @@ controls.  The demos can be run as follows:
   * 'java -Djexer.Swing=true -jar jexer.jar' .  This will always use
     Swing on any platform.
 
-  * 'java -cp jexer.jar jexer.demos.Demo2 PORT' (where PORT is a
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo2 PORT' (where PORT is a
     number to run the TCP daemon on).  This will use the Xterm backend
     on a telnet server that will update with screen size changes.
 
-  * 'java -cp jexer.jar jexer.demos.Demo3' .  This will use
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo3' .  This will use
     System.in/out with Xterm-like sequences.  One can see in the code
     how to pass a different InputReader and OutputReader to
     TApplication, permitting a different encoding than UTF-8.
 
-  * 'java -cp jexer.jar jexer.demos.Demo4' .  This demonstrates hidden
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo4' .  This demonstrates hidden
     windows and a custom TDesktop.
 
-  * 'java -cp jexer.jar jexer.demos.Demo5' .  This demonstrates two
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo5' .  This demonstrates two
     demo applications using different fonts in the same Swing frame.
 
-  * 'java -cp jexer.jar jexer.demos.Demo6' .  This demonstrates two
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo6' .  This demonstrates two
     applications performing I/O across three screens: an Xterm screen
     and Swing screen, monitored from a third Swing screen.
 
-  * 'java -cp jexer.jar jexer.demos.Demo7' .  This demonstrates the
+  * 'java -cp jexer.jar demos.com.steeplesoft.jexer.Demo7' .  This demonstrates the
     BoxLayoutManager, achieving a similar result as the
     javax.swing.BoxLayout apidocs example.
 
