@@ -15,6 +15,10 @@
 
     <modules>
         <module>helloworld</module>
+        <module>jexerimageviewer</module>
+        <module>jexertilingwindowmanager</module>
+        <module>jexertilingwindowmanager2</module>
+        <module>myapplication</module>
     </modules>
 
 </project>
