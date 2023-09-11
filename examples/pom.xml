@@ -21,12 +21,4 @@
         <module>jexertilingwindowmanager</module>
         <module>jexertilingwindowmanager2</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>jexer</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 </project>
