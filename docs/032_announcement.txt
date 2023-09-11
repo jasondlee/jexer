@@ -45,13 +45,13 @@ Find out more at the Jexer Sourceforge or GitLab project pages:
 
   * https://jexer.sourceforge.io/
 
-  * https://gitlab.com/klamonte/jexer
+  * https://github.com/jasondlee/jexer
 
 
 Download
 --------
 
-GitLab: git clone https://gitlab.com/klamonte/jexer.git
+GitLab: git clone https://github.com/jasondlee/jexer.git
 
 Binary downloads: http://sourceforge.net/project/showfiles.php?group_id=2829121
 
@@ -83,7 +83,7 @@ windows, add 'ptypipe'.)
 
 So for those who want something like Jexer but in your own favorite
 language, I encourage you to check out the [Porting
-Jexer](https://gitlab.com/klamonte/jexer/wikis/porting) page on the
+Jexer](https://github.com/jasondlee/jexer/wikis/porting) page on the
 wiki: it has pointers to where the key features are, and a potential
 roadmap if you wanted to take part or all of it into your own hands.
 I licensed Jexer as MIT, stuck with simple Java 1.6, and thoroughly

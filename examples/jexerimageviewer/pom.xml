@@ -13,14 +13,6 @@
     <name>Jexer Examples - Image Viewer</name>
     <description>Java Text User Interface library that resembles Turbo Vision</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>jexer</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>

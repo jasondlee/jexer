@@ -59,7 +59,7 @@ This proposal has been informed from the following prior work:
   https://sw.kovidgoyal.net/kitty/graphics-protocol.html
 
 * Jexer Terminal User Interface:
-  https://gitlab.com/klamonte/jexer
+  https://github.com/jasondlee/jexer
 
 
 

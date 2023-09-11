@@ -43,7 +43,7 @@ Jexer is available on Maven Central:
 Binary releases are available on SourceForge:
 https://sourceforge.net/projects/jexer/files/jexer/
 
-The Jexer source code is hosted at: https://gitlab.com/klamonte/jexer
+The Jexer source code is hosted at: https://github.com/jasondlee/jexer
 
 
 
@@ -52,11 +52,11 @@ Documentation
 
 * [Java API Docs](https://jexer.sourceforge.io/apidocs/api/index.html)
 
-* [Wiki](https://gitlab.com/klamonte/jexer/wikis/home)
+* [Wiki](https://github.com/jasondlee/jexer/wikis/home)
 
 * [Jexer web page](https://jexer.sourceforge.io/)
 
-* [Development Standards](https://gitlab.com/klamonte/jexer/wikis/dev-standards)
+* [Development Standards](https://github.com/jasondlee/jexer/wikis/dev-standards)
 
 
 
