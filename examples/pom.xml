@@ -14,11 +14,12 @@
     <description>Java Text User Interface library that resembles Turbo Vision</description>
 
     <modules>
+        <module>demos</module>
         <module>helloworld</module>
+        <module>myapplication</module>
         <module>jexerimageviewer</module>
         <module>jexertilingwindowmanager</module>
         <module>jexertilingwindowmanager2</module>
-        <module>myapplication</module>
     </modules>
 
 </project>

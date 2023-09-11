@@ -33,9 +33,7 @@ import java.net.Socket;
 import java.text.MessageFormat;
 import java.util.ResourceBundle;
 
-import jexer.TApplication;
 import jexer.backend.*;
-import jexer.demos.DemoApplication;
 import jexer.net.TelnetServerSocket;
 
 

@@ -32,7 +32,6 @@ import java.util.ResourceBundle;
 
 import jexer.TApplication;
 import jexer.backend.*;
-import jexer.demos.DemoApplication;
 
 /**
  * This class shows off the use of MultiBackend and MultiScreen.

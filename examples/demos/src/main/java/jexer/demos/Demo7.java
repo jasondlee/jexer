@@ -32,7 +32,6 @@ import java.util.ResourceBundle;
 
 import jexer.TApplication;
 import jexer.TPanel;
-import jexer.TText;
 import jexer.TWindow;
 import jexer.layout.BoxLayoutManager;
 
