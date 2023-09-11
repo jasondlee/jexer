@@ -5,7 +5,7 @@
     <groupId>com.steeplesoft.jexer</groupId>
     <artifactId>jexer-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSH4OT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Jexer Parent</name>
     <description>Java Text User Interface library that resembles Turbo Vision</description>
