@@ -26,6 +26,7 @@ hs_err_pid*
 # Scratch space
 misc/**
 /.project~
+.idea
 
 pmd.bash
 pmd-results.html
