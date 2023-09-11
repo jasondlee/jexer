@@ -23,7 +23,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  *
- * @author Autumn Lamonte [AutumnWalksTheLake@gmail.com] ⚧ Trans Liberation Now
+ * @author Autumn Lamonte [AutumnWalksTheLake@gmail.com]
  * @version 1
  */
 package com.steeplesoft.jexer.ttree;
