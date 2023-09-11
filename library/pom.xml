@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gitlab.klamonte</groupId>
-    <artifactId>jexer-parent</artifactId>
-    <packaging>pom</packaging>
-    <name>Jexer Parent</name>
+    <artifactId>jexer</artifactId>
+    <packaging>jar</packaging>
+    <name>Jexer</name>
     <description>Java Text User Interface library that resembles Turbo Vision</description>
     <version>1.0.1-SNAPSHOT</version>
     <url>https://gitlab.com/klamonte/jexer</url>
@@ -45,30 +45,7 @@
         </repository>
     </distributionManagement>
 
-    <modules>
-        <module>library</module>
-        <module>examples</module>
-    </modules>
-
     <build>
-<!--
-        <sourceDirectory>${project.basedir}/src</sourceDirectory>
-        <resources>
-            <resource>
-                <directory>${project.basedir}/resources</directory>
-                <filtering>false</filtering>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src</directory>
-                <excludes>
-                    <exclude>**/*.java</exclude>
-                </excludes>
-            </resource>
-        </resources>
--->
 
         <plugins>
 
@@ -81,27 +58,6 @@
                     <target>17</target>
                 </configuration>
             </plugin>
-<!--
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.2</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>
-                                jexer.demos.Demo1
-                            </mainClass>
-
-                        </manifest>
-                        <manifestEntries>
-                            <Implementation-Version>${project.version}</Implementation-Version>
-                        </manifestEntries>
-                    </archive>
-                </configuration>
-            </plugin>
--->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -113,6 +69,20 @@
                         <phase>verify</phase>
                         <goals>
                             <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>

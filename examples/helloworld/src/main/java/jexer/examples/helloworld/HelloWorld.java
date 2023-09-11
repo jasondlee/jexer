@@ -1,5 +1,6 @@
-import jexer.TApplication;
+package jexer.examples.helloworld;
 
+import jexer.TApplication;
 public class HelloWorld {
 
     public static void main(String [] args) throws Exception {

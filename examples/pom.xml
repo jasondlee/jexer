@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.gitlab.klamonte</groupId>
+        <artifactId>jexer-parent</artifactId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>jexer-examples-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>Jexer Examples Parent</name>
+    <description>Java Text User Interface library that resembles Turbo Vision</description>
+
+    <modules>
+        <module>helloworld</module>
+    </modules>
+
+</project>
